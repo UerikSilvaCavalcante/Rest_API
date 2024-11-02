@@ -1,3 +1,3 @@
 # REST API
-    - Utilizando Django e Django-ninja
+- Utilizando Django e Django-ninja
     
