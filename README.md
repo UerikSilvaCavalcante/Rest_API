@@ -1,46 +1,49 @@
 # REST API
-- Utilizando Django e Django-ninja
+- Using Django and Django-ninja
 
-## Função
-Esta uma REST API desenvolvida em **python** e **django**, utlizando a biblioteca **django-ninja**, para facilitar na organização e ciração da **CRUD** desta **APi**
+## Function
+This is a REST API developed in **Python** and **Django**, using the django-ninja library to facilitate the organization and creation of the **CRUD** for this **API**.
 
-## Objetivo
-Esta API tem um objtivo simples, pelo fato ser feita apenas para aprendizagem.
-Ela é um gerenciador de livros, nela se faz o armazenamento dos livros e tambem e possivel avaliar os mesmos, dando um nota e adicionando um comentario
+## Objective
+This API has a simple objective, as it was made purely for learning purposes. It is a book manager, where you can store books and also review them by giving a rating and adding a comment.
 
-## Tecnologias
+## Technologies
 - Python
 - Django
 - Djnago-Ninja
 - SQLite3
 
-## Como usar
-- (Opcional) crie um ambiente virtual python
-- ative ele
+## How to use
+- (Optional) create a Python virtual environment
+- Activate it
     ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     ```
-- instale o Django
+- Install Django
     ```
         pip install django
     ```
 
-- instale o Django-Ninja
+- Install Django-Ninja
+
     ```
         pip install django-ninja
     ```
 
-- Execute o makemigration do manage.py para atulizar a migrations
+- Run the makemigrations from manage.py to update the migrations
+
     ``` 
         python manage.py makemigration
     ```
-- Execute o migrate do manage.py para rodar as migrations no banco
+- Run the migrate from manage.py to apply the migrations to the database
+
     ``` 
         python manage.py migrate
     ```
 
-- Execute o runserver para rodar a API
+- Run the server to start the API
+
     ``` 
         python manage.py runserver
     ```
